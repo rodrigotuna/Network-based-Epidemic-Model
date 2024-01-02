@@ -1,6 +1,7 @@
-# Network-based epedemic model
+# Network-based Epedemic Model with Reinfections
 
-Code developed for the project of the course Complex Systems and Network Science. We present a model for the simulation of an epedemic based on a network propagation and its implementation in Matlab. We present the results of experiments and their visualization.
+## Abstract
+With the global impact of the COVID-19 pandemic, there has been an increasing interest in epidemic models. These models have proven to be crucial resources for comprehending and forecasting the spread of infectious diseases. This research introduces a unique epidemic model that combines epidemics' social and biological aspects based on a network of social relationships. In contrast to conventional models, we consider the potential for numerous infections and include dynamic aspects such as a decline in social connections due to the manifestation of symptoms. We experiment on both synthetic and real-world data and empirically investigate our model to examine how different network topologies and simulation settings affect the spread of infections. We also compare our model to the well-known SIR, SIS, and SEIR models.
 
 ## Files
  - `script.m` : Runs experiments by varrying simulation parameters and the underlying network.
